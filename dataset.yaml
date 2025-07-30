@@ -1,0 +1,11 @@
+# dataset.yaml
+path: ./license_plate_dataset
+train: train/images
+val: val/images
+test: test/images
+
+nc: 3
+names:
+  0: car_license_plate
+  1: motorcycle_license_plate
+  2: truck_license_plate
